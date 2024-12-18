@@ -1,0 +1,58 @@
+@media (max-width: 1165px) {
+  .container {
+    max-width: 768px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 833px) {
+  .header {
+    padding-top: 10px;
+  }
+
+  .container {
+    max-width: 420px;
+  }
+
+  .buttons,
+  .menu {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .btn {
+    flex: 0 1 20%;
+  }
+
+  .title {
+    text-align: center;
+  }
+  .subtitle {
+    text-align: center;
+  }
+  .item-timer {
+    flex: 0 1 100%;
+    margin: 0 80px;
+  }
+}
+@media (max-width: 555px) {
+  .buttons {
+  }
+
+  .field__item {
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .field__item {
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .container {
+    max-width: 300px;
+  }
+}
